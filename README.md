@@ -1,23 +1,27 @@
 **Projeto Biblioteca - CRUD de Autor e Biblioteca**
+
 Este projeto é uma aplicação Spring Boot para gerenciar autores e bibliotecas, com um relacionamento Many-to-Many entre essas entidades. A aplicação utiliza o banco de dados MariaDB e o JPA (Java Persistence API) para persistência de dados.
 Descrição
+
 Este projeto foi desenvolvido utilizando Spring Boot e implementa uma API RESTful para gerenciar autores e bibliotecas, utilizando um banco de dados MariaDB. O relacionamento entre as entidades Autor e Biblioteca é feito de forma Many-to-Many, permitindo associar múltiplos autores a várias bibliotecas.
 
 Estrutura do Projeto
 A estrutura do projeto está organizada da seguinte forma:
 
-model: Contém as entidades Autor e Biblioteca.
+**model:** Contém as entidades Autor e Biblioteca.
 
-repository: Contém os repositórios JPA para interação com o banco de dados.
+**repository:** Contém os repositórios JPA para interação com o banco de dados.
 
-service: Contém a lógica de negócios (não implementada neste exemplo).
+**service**: Contém a lógica de negócios (não implementada neste exemplo).
 
-controller: Define os endpoints da API REST.
+**controller:** Define os endpoints da API REST.
 
-Relacionamento Entre as Entidades
+**Relacionamento Entre as Entidades**
+
 O relacionamento entre Autor e Biblioteca é um Many-to-Many, o que significa que um autor pode ser associado a várias bibliotecas e uma biblioteca pode ter vários autores. A tabela intermediária biblioteca_autor gerencia esse relacionamento.
 
-Como Funciona
+**Como Funciona**
+
 Autor.java: Representa a entidade Autor.
 
 Biblioteca.java: Representa a entidade Biblioteca.
