@@ -25,11 +25,13 @@ O relacionamento entre Autor e Biblioteca é um Many-to-Many, o que significa qu
 **Autor.java:** 
 Representa a entidade Autor.
 
-Biblioteca.java: Representa a entidade Biblioteca.
+**Biblioteca.java:** Representa a entidade Biblioteca.
 
-Tabela intermediária: A tabela biblioteca_autor é criada automaticamente pelo Spring Data JPA, contendo as colunas biblioteca_id e autor_id.
+**Tabela intermediária:** A tabela biblioteca_autor é criada automaticamente pelo Spring Data JPA, contendo as colunas biblioteca_id e autor_id.
 
-Funcionalidades
+**Funcionalidades**
+
+
 A API oferece os seguintes endpoints para interagir com os dados:
 
 GET /autores: Lista todos os autores.
