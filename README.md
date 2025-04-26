@@ -1,5 +1,4 @@
-**
-Projeto Biblioteca - CRUD de Autor e Biblioteca**
+**Projeto Biblioteca - CRUD de Autor e Biblioteca**
 Este projeto é uma aplicação Spring Boot para gerenciar autores e bibliotecas, com um relacionamento Many-to-Many entre essas entidades. A aplicação utiliza o banco de dados MariaDB e o JPA (Java Persistence API) para persistência de dados.
 
 **Funcionalidades**
