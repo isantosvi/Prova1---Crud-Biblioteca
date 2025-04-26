@@ -34,22 +34,22 @@ Representa a entidade Autor.
 
 A API oferece os seguintes endpoints para interagir com os dados:
 
-GET /autores: Lista todos os autores.
+**GET /autores**: Lista todos os autores.
 
-GET /autores/{id}: Retorna um autor pelo ID.
+**GET /autores/{id}:** Retorna um autor pelo ID.
 
-POST /autores: Cria um novo autor.
+**POST /autores:** Cria um novo autor.
 
-PUT /autores/{id}: Atualiza os dados de um autor existente.
+**PUT /autores/{id}:** Atualiza os dados de um autor existente.
 
-DELETE /autores/{id}: Remove um autor.
+**DELETE /autores/{id}:** Remove um autor.
 
-GET /bibliotecas: Lista todas as bibliotecas.
+**GET /bibliotecas:** Lista todas as bibliotecas.
 
-GET /bibliotecas/{id}: Retorna uma biblioteca pelo ID.
+**GET /bibliotecas/{id}:** Retorna uma biblioteca pelo ID.
 
-POST /bibliotecas: Cria uma nova biblioteca.
+**POST /bibliotecas:** Cria uma nova biblioteca.
 
-PUT /bibliotecas/{id}: Atualiza os dados de uma biblioteca existente.
+**PUT /bibliotecas/{id}:** Atualiza os dados de uma biblioteca existente.
 
-DELETE /bibliotecas/{id}: Remove uma biblioteca.
+**DELETE /bibliotecas/{id}:** Remove uma biblioteca.
