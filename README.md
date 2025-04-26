@@ -22,7 +22,8 @@ O relacionamento entre Autor e Biblioteca é um Many-to-Many, o que significa qu
 
 **Como Funciona**
 
-Autor.java: Representa a entidade Autor.
+**Autor.java:** 
+Representa a entidade Autor.
 
 Biblioteca.java: Representa a entidade Biblioteca.
 
